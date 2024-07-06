@@ -174,21 +174,28 @@
   /* border-radius:0% ;
   opacity: 0.6; */
 }
-/* #services .container .row .col-md-3:hover{
-  background-color: #0d6efd;
-} */
-/* #services .container .row .col-mdhover{
-  color: #0d6efd;
-  border: 15px solid #fff;
-  border-radius: 50%;
-  background-color: #fff;
-} */
-/* #services .container .h1:hover{
-  color: #fff;
-} */
-#testimonials{
-  background-color: rgba(0, 0, 0, 0.1);
+
+#testimonials .card-img img{
+  position: absolute;
+  width: 14%;
+  top: 15px ;  
+  height: auto;
+  left: -50px;
 }
+@media  only screen and (max-width:576px) {
+  #testimonials .card-img img{
+  position: absolute;
+  width: 20%;
+  top: 15px ;  
+  height: auto;
+  left: -20px;
+}
+}
+#testimonials .card{
+  border: none; 
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
 #testimonials .container h1{
   position: relative;
 }
@@ -210,18 +217,14 @@
   margin: 0px 0px 10px 20px;
   border-radius: 20%;
 } 
-#testimonials .container img{
+/* #testimonials .container img{
   width: 50%;
-}
+} */
 #testimonials .container i{
   color: rgb(255, 153, 0);
 }
 #testimonials .container h4 i{
   color: #0d6efd;
-}
-#testimonials .circle{
-  text-align: center;
-  margin: 10px auto;
 }
 #testimonials .chose{
   border: 5px solid #b7c5da;
@@ -237,21 +240,11 @@
   height: 5%;
   display: inline-flex;
 }
-/* .circle{
-  border-radius: 50%;
+#testimonials{
+  background-color: rgba(0, 0, 0, 0.1);
 }
-.containen col i{
-  color: #0d6efd;
-} */
-/* #continu .container img{
-  width: 50%;
-}
-#continu .container i{
-  color: rgb(255, 153, 0);
-}
-#continu .container h4 i{
-  color: #0d6efd;
-} */
+
+
 #portfolio h1{
   position: relative;
 }
@@ -391,17 +384,7 @@
   opacity: 1;
   bottom: 115px;
 }
-/* #Team .container .row .col-md-3 .card .photo{
-  position: relative;
-}
-#Team .container .row .col-md-3 .card .icons{
-  position: absolute;
-  text-align: center;
-  opacity: 0;
-} 
-#Team .container .row .col-md-3 .card .icons:hover{
-  opacity: 1;
-} */
+
 #pricing .container h1{
   position: relative;
 }
